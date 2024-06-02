@@ -82,6 +82,5 @@ def get_data(to_pred_game_date, home_team, away_team):
 
     last = pd.concat([features_avg, player_all], axis=1)
     last = last.drop(columns=['team_name_home', 'team_name_away'])
-    last
-
+    
     return last
